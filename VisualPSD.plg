@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: VisualPSD - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPB75A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /D "HAVE_REMOTE" /FR"Debug/" /Fp"Debug/VisualPSD.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Administrator\Desktop\VisualPSD-20121021\VisualPSDView.cpp"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPB75A.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSPB76B.tmp" with contents
+[
+wpcap.lib packet.lib ws2_32.lib beaengine.lib iphlpapi.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/VisualPSD.pdb" /debug /machine:I386 /nodefaultlib:"crt.lib" /out:"Debug/VisualPSD.exe" /pdbtype:sept 
+".\Debug\ADE.obj"
+".\Debug\asmserv.obj"
+".\Debug\assembl.obj"
+".\Debug\disasm.obj"
+".\Debug\Hook.obj"
+".\Debug\MainFrm.obj"
+".\Debug\MyEdit.obj"
+".\Debug\MyMessageBox.obj"
+".\Debug\MyRichEditCtrl.obj"
+".\Debug\OutputBar.obj"
+".\Debug\PropertiesViewBar.obj"
+".\Debug\PSCFMAnalyzer.obj"
+".\Debug\PSCFMThread.obj"
+".\Debug\PSDisasmer.obj"
+".\Debug\PSDisasmThread.obj"
+".\Debug\PSFilter.obj"
+".\Debug\PSForwarder.obj"
+".\Debug\PSIA32Recognizer.obj"
+".\Debug\PSIA32Thread.obj"
+".\Debug\PSShellcode.obj"
+".\Debug\StdAfx.obj"
+".\Debug\VisualPSD.obj"
+".\Debug\VisualPSDAboutDlg.obj"
+".\Debug\VisualPSDDoc.obj"
+".\Debug\VisualPSDView.obj"
+".\Debug\WorkspaceBar.obj"
+".\Debug\WorkspaceBar2.obj"
+".\Debug\VisualPSD.res"
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSPB76B.tmp"
+<h3>Output Window</h3>
+Compiling...
+VisualPSDView.cpp
+C:\Users\Administrator\Desktop\VisualPSD-20121021\VisualPSDView.cpp(245) : error C2440: 'initializing' : cannot convert from 'void *' to 'class CMyRichEditCtrl *'
+        Conversion from 'void*' to pointer to non-'void' requires an explicit cast
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+VisualPSD.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
